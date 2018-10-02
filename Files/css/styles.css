@@ -1,0 +1,99 @@
+/*
+ * Name:      : styles.css
+ * Date       : 09/22/2018
+ * Author     : Andrew Eissen
+ */
+
+/* Set gray background and align elements to center */
+body {
+  background-color: #CCCCCC;
+  text-align: center;
+}
+
+/* Wrapper element */
+#container {
+  background: #333333;
+  display: inline-block;
+  border: 4px outset;
+  border-color: #D8D8D8;
+  padding: 0;
+  margin-top: 25px;
+  box-shadow: 0 0 12px 0 #808080;
+}
+
+/* Class for sidebar and canvas modules */
+.container-module {
+  float: left;
+}
+
+/* Canvas element itself */
+#glcanvas {
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Header title for each sidebar module */
+.header-text {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* <form> element module of sidebar */
+#toggle-button-holder {
+  text-align: left;
+  border: none;
+  padding: 7px 10px;
+}
+
+/* Lefthand sidebar buttons */
+
+/* Shared CSS properties for buttons and pseudo-JToggleButtons */
+.sidebar-element {
+  font-size: 12pt;
+  font-family: "Times New Roman";
+  padding: 3px 5px;
+  line-height: 1;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+/* Toggle buttons/checkboxes */
+
+/* Pseudo-JToggleButton checkbox */
+.toggle-button {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Pseudo-JToggleButton label */
+.toggle-button-label {
+  display: block;
+  background-color: #B22222;
+}
+
+/* Color gray if checked */
+.toggle-button:checked + .toggle-button-label {
+  background-color: #444444;
+}
+
+/* Action buttons */
+
+/* One of the lower buttons, (i.e. Start animation, etc.) */
+.action-button {
+  width: 90%;
+  text-align: left;
+  border: none;
+  background-color: #444444;
+}
+
+/* Change to green background if clicked */
+.action-button:focus {
+  outline: none;
+  background-color: #008000;
+}

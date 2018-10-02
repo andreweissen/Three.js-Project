@@ -1,0 +1,5 @@
+### CMSC 405 Three.js Project ###
+
+#### Overview ####
+
+This project, the third in the CMSC 405 project series, makes use of the [Three.js](https://en.wikipedia.org/wiki/Three.js) library framework in the creation of a unique animated 3D scene containing six unique scene objects and five different light sources. The author's project animation loops elements of various levels of shininess through the rotating torus ring in a "basketball-in-hoop" manner without clipping, with various animated scene objects rotating over multiple axes simultaneously in the progression. The elements are colored by a collection of red, green, and blue lights of various brightness levels, with a pair of white lights illuminating the entire scene from the viewpoint camera angle and an above-the-camera global angle. The completed project was submitted on September 28, 2018 and received a grade of 100%. The package itself contains images of the program in action, documentation files containing a more detailed decription of the project goals, and the four JavaScript, CSS, and HTML source files themselves.
